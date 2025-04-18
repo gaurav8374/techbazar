@@ -32,97 +32,215 @@
 
   <!-- 🔹 Phone Cards -->
   <div class="phone-container">
-    <div class="phone-card">
+    <!-- Galaxy S24 Ultra -->
+    <div class="phone-card" onclick="toggleSpecs('s24ultra')">
       <img src="s24ultra.jpg" alt="Galaxy S24 Ultra">
       <h3>Galaxy S24 Ultra</h3>
       <p>Explore the powerful features of the Galaxy S24 Ultra.</p>
+      <div id="s24ultra" class="phone-specs">
+        <h4>Galaxy S24 Ultra Specs:</h4>
+        <ul>
+          <li>Display: 6.8-inch Dynamic AMOLED 2X</li>
+          <li>Processor: Snapdragon 8 Gen 2</li>
+          <li>RAM: 12GB</li>
+          <li>Storage: 256GB/512GB</li>
+          <li>Camera: 200MP (Main), 12MP (Ultra-wide), 10MP (Telephoto)</li>
+          <li>Battery: 5000mAh</li>
+          <li>Operating System: Android 14</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="phone-card">
+    <!-- iPhone 15 Pro -->
+    <div class="phone-card" onclick="toggleSpecs('iphone15pro')">
       <img src="iphone 15 pro.jpeg" alt="iPhone 15 Pro">
       <h3>iPhone 15 Pro</h3>
       <p>Next-gen performance with a sleek design.</p>
+      <div id="iphone15pro" class="phone-specs">
+        <h4>iPhone 15 Pro Specs:</h4>
+        <ul>
+          <li>Display: 6.1-inch OLED</li>
+          <li>Processor: A17 Pro chip</li>
+          <li>RAM: 6GB</li>
+          <li>Storage: 128GB/256GB/512GB</li>
+          <li>Camera: 48MP (Main), 12MP (Ultra-wide), 3D LiDAR</li>
+          <li>Battery: 3200mAh</li>
+          <li>Operating System: iOS 17</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="phone-card">
+    <!-- Redmi Note 13 Pro+ -->
+    <div class="phone-card" onclick="toggleSpecs('note13proplus')">
       <img src="note13proplus.jpg" alt="Redmi Note 13 Pro+">
       <h3>Redmi Note 13 Pro+</h3>
       <p>200MP camera with premium feel at a great price.</p>
+      <div id="note13proplus" class="phone-specs">
+        <h4>Redmi Note 13 Pro+ Specs:</h4>
+        <ul>
+          <li>Display: 6.67-inch AMOLED, 120Hz</li>
+          <li>Processor: MediaTek Dimensity 9200</li>
+          <li>RAM: 8GB/12GB</li>
+          <li>Storage: 128GB/256GB</li>
+          <li>Camera: 200MP (Main), 8MP (Ultra-wide), 2MP (Macro)</li>
+          <li>Battery: 5000mAh, 120W fast charging</li>
+          <li>Operating System: MIUI 14 (Android 13)</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="phone-card">
+    <!-- OnePlus 11 -->
+    <div class="phone-card" onclick="toggleSpecs('oneplus11')">
       <img src="oneplus11.jpg" alt="OnePlus 11">
       <h3>OnePlus 11</h3>
       <p>Powerful performance and AMOLED display.</p>
+      <div id="oneplus11" class="phone-specs">
+        <h4>OnePlus 11 Specs:</h4>
+        <ul>
+          <li>Display: 6.7-inch Fluid AMOLED, 120Hz</li>
+          <li>Processor: Snapdragon 8 Gen 2</li>
+          <li>RAM: 8GB/16GB</li>
+          <li>Storage: 128GB/256GB</li>
+          <li>Camera: 50MP (Main), 48MP (Ultra-wide), 32MP (Telephoto)</li>
+          <li>Battery: 5000mAh, 100W fast charging</li>
+          <li>Operating System: OxygenOS 13</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="phone-card">
+    <!-- Xiaomi 13 Pro -->
+    <div class="phone-card" onclick="toggleSpecs('xaomi13pro')">
       <img src="xaomi13pro.jpg" alt="Xiaomi 13 Pro">
       <h3>Xiaomi 13 Pro</h3>
       <p>Flagship Snapdragon and 50MP camera combo.</p>
+      <div id="xaomi13pro" class="phone-specs">
+        <h4>Xiaomi 13 Pro Specs:</h4>
+        <ul>
+          <li>Display: 6.73-inch AMOLED, 120Hz</li>
+          <li>Processor: Snapdragon 8 Gen 2</li>
+          <li>RAM: 8GB/12GB</li>
+          <li>Storage: 128GB/256GB/512GB</li>
+          <li>Camera: 50MP (Main), 50MP (Ultra-wide), 50MP (Telephoto)</li>
+          <li>Battery: 4820mAh, 120W fast charging</li>
+          <li>Operating System: MIUI 14 (Android 13)</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="phone-card">
+    <!-- Samsung Galaxy Z Fold 5 -->
+    <div class="phone-card" onclick="toggleSpecs('samsungzfold5')">
       <img src="samsungzfold5.jpg" alt="Samsung Galaxy Z Fold 5">
       <h3>Samsung Galaxy Z Fold 5</h3>
       <p>Ultimate foldable phone experience.</p>
+      <div id="samsungzfold5" class="phone-specs">
+        <h4>Samsung Galaxy Z Fold 5 Specs:</h4>
+        <ul>
+          <li>Display: 7.6-inch Foldable Dynamic AMOLED 2X</li>
+          <li>Processor: Snapdragon 8 Gen 2</li>
+          <li>RAM: 12GB</li>
+          <li>Storage: 256GB/512GB/1TB</li>
+          <li>Camera: 50MP (Main), 12MP (Ultra-wide), 10MP (Telephoto)</li>
+          <li>Battery: 4400mAh</li>
+          <li>Operating System: One UI 5.1.1 (Android 13)</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="phone-card">
+    <!-- Google Pixel 8 Pro -->
+    <div class="phone-card" onclick="toggleSpecs('googlepixel8pro')">
       <img src="googlepixel8pro.jpeg" alt="Google Pixel 8 Pro">
       <h3>Google Pixel 8 Pro</h3>
       <p>Stunning photos and smart AI features.</p>
-    </div>
-
-    <div class="phone-card">
-      <img src="vivox90pro.webp" alt="Vivo X90 Pro">
-      <h3>Vivo X90 Pro</h3>
-      <p>Premium build and great camera system.</p>
-    </div>
-
-    <div class="phone-card">
-      <img src="oppofindn2flip.avif" alt="Oppo Find N2">
-      <h3>Oppo Find N2</h3>
-      <p>Foldable screen with elegant design.</p>
-    </div>
-
-    <div class="phone-card">
-      <img src="oneplus12.jpg" alt="OnePlus 12">
-      <h3>OnePlus 12</h3>
-      <p>Snapdragon 8 Gen 3, AMOLED, 5400mAh battery.</p>
-    </div>
-
-    <div class="phone-card">
-      <img src="xaomi14ultra.jpg" alt="Xiaomi 14 Ultra">
-      <h3>Xiaomi 14 Ultra</h3>
-      <p>1&quot; 50MP camera, Snapdragon 8 Gen 3, fast charge.</p>
-    </div>
-
-    <div class="phone-card">
-      <img src="nothing phone (2).jpg" alt="Nothing Phone (2)">
-      <h3>Nothing Phone (2)</h3>
-      <p>Unique design with transparent back and clean UI.</p>
-    </div>
-  </div>
-
-  <!-- 🔹 Footer Section -->
-  <footer class="footer">
-    <div class="footer-content">
-      <p>&copy; 2025 TechBazar. All rights reserved.</p>
-      <div class="footer-links">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms & Conditions</a>
-        <a href="#">Help</a>
-      </div>
-      <div class="social-icons">
-        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+      <div id="googlepixel8pro" class="phone-specs">
+        <h4>Google Pixel 8 Pro Specs:</h4>
+        <ul>
+          <li>Display: 6.7-inch OLED, 120Hz</li>
+          <li>Processor: Google Tensor G3</li>
+          <li>RAM: 12GB</li>
+          <li>Storage: 128GB/256GB/512GB</li>
+          <li>Camera: 50MP (Main), 48MP (Ultra-wide), 48MP (Telephoto)</li>
+          <li>Battery: 5000mAh</li>
+          <li>Operating System: Android 14</li>
+        </ul>
       </div>
     </div>
-  </footer>
-
-</body>
-
-</html>
+        <!-- Vivo X90 Pro -->
+        <div class="phone-card" onclick="toggleSpecs('vivox90pro')">
+          <img src="x90pro.jpg" alt="Vivo X90 Pro">
+          <h3>Vivo X90 Pro</h3>
+          <p>Impressive camera setup and performance.</p>
+          <div id="vivox90pro" class="phone-specs">
+            <h4>Vivo X90 Pro Specs:</h4>
+            <ul>
+              <li>Display: 6.78-inch AMOLED, 120Hz</li>
+              <li>Processor: MediaTek Dimensity 9200</li>
+              <li>RAM: 12GB</li>
+              <li>Storage: 256GB/512GB</li>
+              <li>Camera: 50MP (Main), 50MP (Portrait), 12MP (Ultra-wide)</li>
+              <li>Battery: 4870mAh, 120W fast charging</li>
+              <li>Operating System: Funtouch OS 13 (Android 13)</li>
+            </ul>
+          </div>
+        </div>
+    
+        <!-- Realme GT 2 Pro -->
+        <div class="phone-card" onclick="toggleSpecs('realmegt2pro')">
+          <img src="gt2pro.webp" alt="Realme GT 2 Pro">
+          <h3>Realme GT 2 Pro</h3>
+          <p>Flagship performance at an affordable price.</p>
+          <div id="realmegt2pro" class="phone-specs">
+            <h4>Realme GT 2 Pro Specs:</h4>
+            <ul>
+              <li>Display: 6.7-inch AMOLED, 120Hz</li>
+              <li>Processor: Snapdragon 8 Gen 1</li>
+              <li>RAM: 8GB/12GB</li>
+              <li>Storage: 128GB/256GB</li>
+              <li>Camera: 50MP (Main), 50MP (Ultra-wide), 3MP (Microscope)</li>
+              <li>Battery: 5000mAh, 65W fast charging</li>
+              <li>Operating System: Realme UI 3.0 (Android 12)</li>
+            </ul>
+          </div>
+        </div>
+    
+        <!-- Honor Magic 5 Pro -->
+        <div class="phone-card" onclick="toggleSpecs('honormagic5pro')">
+          <img src="honormagic5pro.jpg" alt="Honor Magic 5 Pro">
+          <h3>Honor Magic 5 Pro</h3>
+          <p>Incredible performance and camera capabilities.</p>
+          <div id="honormagic5pro" class="phone-specs">
+            <h4>Honor Magic 5 Pro Specs:</h4>
+            <ul>
+              <li>Display: 6.81-inch OLED, 120Hz</li>
+              <li>Processor: Qualcomm Snapdragon 8 Gen 2</li>
+              <li>RAM: 12GB</li>
+              <li>Storage: 256GB/512GB</li>
+              <li>Camera: 50MP (Main), 50MP (Ultra-wide), 50MP (Telephoto)</li>
+              <li>Battery: 5100mAh, 66W fast charging</li>
+              <li>Operating System: Magic UI 7.1 (Android 13)</li>
+            </ul>
+          </div>
+        </div>
+    
+      </div>
+    
+      <!-- 🔹 Footer Section -->
+      <footer>
+        <p>&copy; 2025 Tech Bazar. All rights reserved.</p>
+      </footer>
+    
+      <!-- 🔹 JavaScript to toggle specs -->
+      <script>
+        function toggleSpecs(phoneId) {
+          var specs = document.getElementById(phoneId);
+          if (specs.style.display === "none" || specs.style.display === "") {
+            specs.style.display = "block";
+          } else {
+            specs.style.display = "none";
+          }
+        }
+      </script>
+    
+    </body>
+    
+    </html>
+    
